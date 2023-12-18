@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className='overflow-hidden'>
       {/* div 1 */}
-      <div className='D-homebg1 sm:h-screen h-auto  py-16'>
+      <div className='D-homebg1 sm:h-auto h-auto sm:py-32  py-16'>
         <div className='flex flex-col-reverse sm:flex-row mt-10 sm:mt-0  sm:ml-16 sm:mr-5 sm:justify-between justify-center items-center w-auto'>
           {/* learn and play div */}
           <div className=' flex-col w-full px-10 sm:w-[45%]  '>
@@ -30,7 +30,7 @@ const Home = () => {
             <h1 className='text-4xl my-4 D-lazydog'>LEARN & PLAY !</h1>
             <p className='text-2xl D-futura'>We work everyday to build the foundations for  amazing futures. Both for the child and for our community .</p>
 
-            <button className='D-glacialFont bg-rose-600 text-white py-2 px-5 rounded-md text-lg sm:text-2xl mt-4 '>Read More</button>
+              <button className='D-glacialFont bg-rose-600 text-white py-2 px-5 rounded-md text-lg sm:text-2xl mt-4 '>Read More</button>
           </div>
           {/* bear div */}
           <div data-aos="fade-left" data-aos-duration="1000" >
