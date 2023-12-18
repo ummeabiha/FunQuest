@@ -23,6 +23,15 @@
     background-image: url('./assets/homebg4.png');
     background-size: cover;
 }
+.D-gamebg1{
+    background-image: url('./assets/gamebg1.png');
+    background-size:cover;
+}
+.D-gamebg2{
+    background-image: url('./assets/gamebg2.png');
+    background-size:cover;
+}
+
 .D-bgopacityseablue{
     background-color:rgba(107, 253, 229, 0.495);
 }
@@ -58,6 +67,9 @@
     font-family: 'Sacramento', x;
   }
   
+
+
+
   
   
   
