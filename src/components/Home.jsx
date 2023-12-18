@@ -6,7 +6,7 @@ import penguinn from '../assets/penguin.png'
 import owl from '../assets/owl.png'
 import mouse from '../assets/mouse.png'
 import animals from '../assets/animal-kingdom.png'
-import Footer from './footer'
+import Footer from './Footer'
 import AOS from "aos";
 import "aos/dist/aos.css"; 
 
