@@ -4,7 +4,7 @@ import React from "react";
 import { BrowserRouter as Router,Routes, Route} from "react-router-dom";
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import game from './components/game';
+import Game from './components/Game';
 function App() {
 
   return (
@@ -13,7 +13,7 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path='/' Component={Home} />
-      <Route path='/game' Component={game} />
+      <Route path='/game' Component={Game} />
       </Routes>
     </Router>
       
