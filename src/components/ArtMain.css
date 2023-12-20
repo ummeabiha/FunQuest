@@ -1,0 +1,411 @@
+.ArtMainPage{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/FUNQUESTbg.png');
+  background-size: cover;
+}
+.ContainerArtMain{
+  display:flex;
+  width:90%;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 20px;
+  margin: 0 auto;
+  justify-content:space-between;
+}
+.ArtMainHead1{
+  font-size: 23px;
+  margin-bottom:30px;
+  color:white;
+  background-color: #f584f5;
+  padding: 8px 12px;
+  letter-spacing: 2px;
+  border-radius:5px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display:inline-block;
+}
+.ArtMainHead2{
+  font-size: 40px;
+  padding-bottom:30px;
+  font-family: Lilita One;
+  letter-spacing: 4px;
+}
+.ArtMainPara{
+  padding-right: 100px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ArtMainPic{
+  width: 1200px;
+  padding-left: 50px;
+  margin-top: -50px;
+  
+}
+
+
+
+
+
+.ArtAdventures {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/artAdventure.png');
+  background-size: cover;
+}
+
+.ArtAdventurescontainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ArtAdventuresbox {
+  width: 20rem;
+  margin: 12px 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative; 
+  height: 300px;
+}
+
+.ArtAdventuresbox:nth-child(2) {
+  border-color: white;
+}
+
+.ArtAdventuresHeading {
+  font-size: 42px;
+  padding-top: 70px;
+  padding-bottom: 8px;
+  letter-spacing: 3px;
+  font-family:cursive;
+  text-align: center;
+}
+
+.ArtAdventuresPara {
+  font-size: 24px;
+  padding: 16px;
+  padding-bottom: 60px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.gif-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.OceanS1 {
+  width: 100%;
+  min-height: 90vh;
+  background-image: url('../assets/Explorer.png');
+  background-size: cover;
+}
+
+.OceanHeading,.OceanHeadingS1{
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  font-family: Quando;
+  text-align: center;
+}
+.OceanParaS1 {
+  font-size: 23px;
+  padding: 18px;
+  padding-bottom: 80px;
+  padding-top: 18px;
+  letter-spacing: 5px;
+  line-height: 40px;
+  text-align: center;
+}
+.inputBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: pink;
+}
+.OceanS3 {
+  width: 100%;
+  min-height: 90vh;
+  background-image: url('../assets/Explorer.png');
+  background-size: cover;
+}
+.OceanParaS3 {
+  font-size: 23px;
+  padding: 16px;
+  padding-bottom: 60px;
+  letter-spacing: 2px;
+  line-height: 55px;
+  text-align: center;
+}
+.OceanS2 {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url('../assets/OceanMaterial.png');
+  background-size: cover;
+  
+}
+.containerMaterial{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.materialImage{
+    height:200px;
+    width:200px;
+    margin-top:30px;
+    margin-left:10px;
+}
+.OceanS4 {
+  width: 100%;
+  min-height: 90vh;
+  background-image: url('../assets/formbg.png');
+  background-size: cover;
+}
+.containerShare{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containerShare form{
+    padding:38px;
+}
+.containerShare label {
+  font-size: 25px; 
+}
+
+
+
+
+.containerShare input{
+    margin-bottom: 35px;
+    background-color: pink;
+    margin-left: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+.containerShare input[type="file"] {
+    display: none;
+}
+
+.uploadLabel {
+  position: relative;
+}
+
+.uploadIcon {
+  position: absolute;
+  right: 10px;
+  color: palevioletred;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: auto;
+  cursor: pointer; 
+}
+.uploadLabel {
+    display: flex;
+    align-items: center;
+    margin-top: -35px;
+    background-color: pink;
+    padding: 19px;
+    width: 300px;
+    margin-left: 107px;
+    border-radius: 5px;
+}
+
+.uploadLabel label {
+    flex-grow: 1;
+}
+
+.uploadIcon {
+    margin-left: 10px;
+    color: palevioletred;
+    cursor: pointer;
+}
+
+@media only screen and (min-device-width: 768px) and (max-width: 850px){
+  .ContainerArtMain{
+  flex-direction: column-reverse;
+}
+.ArtMainPic{
+  width: 90%;
+  padding-left: 0px;
+  margin-top: -70px;
+  
+}
+.ArtMainHead1{
+  font-size: 30px;
+  margin-bottom:30px;
+}
+.ArtMainHead2{
+  font-size: 45px;
+  padding-bottom:30px;
+}
+.ArtMainPara{
+  padding-right: 1px;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.ArtAdventuresHeading {
+  font-size: 50px;
+}
+.ArtAdventuresPara {
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+.OceanParaS1 {
+  font-size: 28px;
+  padding-bottom: 100px;
+  letter-spacing: 8px;
+  padding-top: 100px;
+  line-height: 60px;
+}
+.OceanHeadingS1 {
+  font-size: 60px;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.OceanHeading{
+    font-size: 51px;
+    padding-bottom: 40px;
+}
+.inputBar{
+    padding: 14px;
+    width: 350px;
+    border-radius: 3px;
+    margin: 0 auto;
+    background-color: pink;
+}
+.OceanParaS3 {
+  font-size: 27px;
+  padding-bottom: 60px;
+  letter-spacing: 2px;
+  line-height: 70px;
+}
+.containerShare input{
+    margin-bottom: 25px;
+    margin-left: 10px;
+    padding: 2px;
+    width: 300px;
+}
+.containerShare label {
+  font-size: 25px; 
+}
+.uploadLabel {
+    margin-top: -35px;
+    padding: 20px;
+    width: 300px;
+    margin-left: 107px;
+}
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .ContainerArtMain{
+  flex-direction: column-reverse;
+}
+.ArtMainPic{
+  width: 100%;
+  padding-left: 0px;
+  margin-top: -70px;
+  
+}
+.ArtMainHead1{
+  font-size: 18px;
+  margin-bottom:30px;
+}
+.ArtMainHead2{
+  font-size: 30px;
+  padding-bottom:30px;
+}
+.ArtMainPara{
+  padding-right: 1px;
+  font-size: 17px;
+  padding-bottom: 20px;
+}
+.ArtAdventuresHeading {
+  font-size: 30px;
+}
+.ArtAdventuresPara {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+  .ArtAdventurescontainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .OceanS1,.OceanS2 {
+  min-height: 70vh;
+}
+.OceanS3,.OceanS4 {
+  min-height: 70vh;
+}
+  .OceanHeading,.OceanHeadingS1 {
+  font-size: 2rem;
+  padding-top: 70px;
+  padding-bottom: 25px;
+  text-align: center;
+  padding-right: 0px;
+}
+.OceanParaS1 {
+  font-size: 17px;
+  padding-bottom: 60px;
+  letter-spacing: 4px;
+  line-height: 40px;
+}
+.inputBar{
+    padding: 8px;
+    width: 250px;
+}
+  .uploadLabel{
+    width: 202px;
+  }
+  .oceanForm{
+    margin: 0 auto;
+  }
+  .ArtAdventuresbox {
+    width:60%;
+    height: 60%;
+    margin: 10px auto;
+  }
+  .OceanParaS3 {
+  font-size: 16px;
+  line-height: 50px;
+  }
+  .containerShare input{
+    margin-bottom: 15px;
+    width: 200px;
+    border-radius: 5px;
+}
+.containerShare label {
+  font-size: 15px; 
+}
+.uploadLabel {
+    margin-top: -25px;
+    background-color: pink;
+    padding: 12px;
+    max-width: 200px;
+    margin-left: 69px;
+}
+.containerShare form{
+    padding:2px;
+}
+
+}

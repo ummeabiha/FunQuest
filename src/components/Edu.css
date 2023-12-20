@@ -1,0 +1,131 @@
+.Education {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/coursesBg.png');
+  background-size: cover;
+}
+#Reading{
+  background-image: url('../assets/readingBg.png');
+}
+.Educationcontainer {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.Educationbox {
+  width: 20rem;
+  margin: 12px 0px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  position: relative; 
+  height: 300px;
+}
+
+.Educationbox:nth-child(2) {
+  border-color: white;
+}
+
+.EducationHeading {
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 8px;
+  letter-spacing: 3px;
+  font-family:cursive;
+  text-align: center;
+}
+
+.EducationPara {
+  font-size: 24px;
+  padding: 16px;
+  padding-bottom: 60px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.gif-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.EduMath{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('../assets/EduMathBg.png');
+  background-size: cover;
+}
+.MathContainer{
+  display:flex;
+  width:85%;
+  padding:100px 30px;
+  margin: 0 auto;
+  justify-content:space-between;
+}
+.MathContentPara{
+  padding-right: 100px;
+  font-size: 18px;
+  padding-bottom: 20px;
+  font-family: 'GlacialIndifferenceRegular';
+}
+.EduMath-image{
+  width:1000px;
+}
+@media only screen and (min-device-width: 768px) and (max-width: 850px){
+  .Education {
+  min-height: 80vh;
+}
+.MathContainer{
+  flex-direction: column-reverse;
+}
+.MathContentPara{
+  padding-right: 8px;
+  font-size: 24px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.EduMath-image{
+  width:100%;
+}
+.math-image{
+  width: 85%;
+}
+.EducationHeading {
+  font-size: 50px;
+}
+.EducationPara {
+  font-size: 25px;
+}
+
+}
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+  .Educationcontainer {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Educationbox {
+    width:60%;
+    height: 60%;
+    margin: 10px auto;
+  }
+  .MathContainer{
+  flex-direction: column-reverse;
+}
+.EduMath-image{
+  width:100%;
+}
+.MathContentPara{
+  padding-right: 15px;
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+.EducationHeading {
+  font-size: 30px;
+}
+.EducationPara {
+  font-size: 17px;
+  letter-spacing: 2px;
+}
+}

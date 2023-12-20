@@ -1,0 +1,170 @@
+
+.main {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.contain {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+    flex-wrap: nowrap;
+}
+
+.sci img {
+    width: 15vw;
+    height: 30vh;
+}
+
+.math img {
+    width: 30vw;
+    height: 30vh;
+}
+
+.text {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h2 {
+    font-family:cursive;
+    text-align: left;
+    font-size: 30px;
+
+}
+
+.math p {
+    font-family: 'GlacialIndifferenceRegular';
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sci p {
+    font-family: 'GlacialIndifferenceRegular';
+    width: 150%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #c61569;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .contain {
+        flex-direction: column;
+        top: 3%;
+        left: 15%;
+        gap:10px;
+    }
+
+    .sci img,
+    .math img {
+        width: 100%;
+        height: 165px;
+    }
+
+    .text,
+    .text1 {
+        text-align: center;
+        font-size: 11px;
+        width: 100%;
+    }
+
+    .text h2 {
+        text-align: center;
+
+    }
+
+    .math p,
+    .sci p {
+        margin-top: -5px;
+        width: 70%;
+        font-size: 14px;
+    }
+
+    .btn2 {
+       
+        margin-top: 0px;
+        
+
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-width: 912px){
+    .contain {
+        flex-direction: column;
+        top: 5%;
+        gap:70px;
+        left: 20%;
+    }
+
+    .sci img,
+    .math img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .text,
+    .text1 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .text h2 {
+        text-align: center;
+        font-size: 40px;
+
+    }
+
+    .math p,
+    .sci p {
+        margin-top: 0;
+        width: 100%;
+        font-size: 32px;
+    }
+
+    .btn2 {
+        height: 50px;
+        width: 160px;
+        margin-top: -3px;
+        font-size: 24px;
+
+    }
+
+}

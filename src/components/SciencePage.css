@@ -1,0 +1,138 @@
+.back {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pic1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.new {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    flex-wrap: nowrap;
+}
+
+.new img {
+    width: 50vh;
+    height: 50vh;
+}
+
+.note {
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+    width: 40%;
+}
+
+.note img {
+    width: 50%;
+    height: 20vh;
+
+}
+
+.note p {
+    font-family: 'GlacialIndifferenceRegular';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.btn3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 18PX;
+    color: white;
+    background-color: #c61569;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .pic1{
+        width: 100%;
+    }
+    .new {
+        flex-direction: column;
+        gap: 20px;
+        top: 1%;
+    }
+
+    .new img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .note img {
+        width: 100%;
+        height: 60%;
+    }
+
+    .note {
+
+        width: 90%;
+    }
+
+    .note p {
+        font-size: 14px;
+    }
+    .btn3{
+        margin-top: 0;
+    }
+
+
+}
+@media only screen and (min-device-width: 768px) and (max-width: 912px){
+    .pic1{
+        width: 100%;
+    }
+    .new {
+        flex-direction: column;
+        top: 1%;
+    }
+
+    .note img {
+        width: 100%;
+
+    }
+
+    .note {
+
+        width: 70%;
+    }
+
+    .note p {
+        margin-top: -4px;
+        font-size: 26px;
+        margin-right: 30px;
+    
+    }
+    .btn3{
+        height: 50px;
+        width: 160px;
+        margin-top: -3px;
+        font-size: 24px;
+    } 
+}
